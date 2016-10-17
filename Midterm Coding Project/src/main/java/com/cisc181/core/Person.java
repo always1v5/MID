@@ -27,7 +27,7 @@ public abstract class Person implements java.io.Serializable {
 	}
 
 	public String getMiddleName() {
-		return MiddleName;
+		return this.MiddleName;
 	}
 
 	public void setMiddleName(String MiddleName) {
@@ -43,7 +43,7 @@ public abstract class Person implements java.io.Serializable {
 	}
 
 	public Date getDOB() {
-		return DOB;
+		return this.DOB;
 	}
 
 	public void setDOB(Date DOB){
@@ -53,28 +53,28 @@ public abstract class Person implements java.io.Serializable {
 	}
 
 	public void setAddress(String newAddress) {
-		address = newAddress;
+		this.address = newAddress;
 	}
 
 	public String getAddress() {
-		return address;
+		return this.address;
 	}
 
 	public void setPhone(String newPhone_number) {
-		phone_number = newPhone_number;
+		this.phone_number = newPhone_number;
 	
 	}
 
 	public String getPhone() {
-		return phone_number;
+		return this.phone_number;
 	}
 
 	public void setEmail(String newEmail) {
-		email_address = newEmail;
+		this.email_address = newEmail;
 	}
 
 	public String getEmail() {
-		return email_address;
+		return this.email_address;
 	}
 
 	/*
